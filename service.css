@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(255, 253, 253);
+}
+.prices{
+    padding: 0 10% 10% 10%;
+}
+h1{
+    padding: 3% 2%;
+    margin-top: 40px;
+    font-family: sans-serif;
+
+}
+.bottom-container{
+    padding: 80px 0 20px 0;
+  background-color: #242929;
+  margin: 0px 30px;
+  text-align: center;
+  
+}
+a{
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+p{
+    line-height: 2;
+}
+.copyright{
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+/* pagination */
+.pagination {
+    
+    text-align: center;
+    margin-left: 70%;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  .pagination a.active {
+    background-color: #242929;
+    color: white;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+
+  /* pagination */
